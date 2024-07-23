@@ -2,6 +2,7 @@
     font-family: Baloo2;
     src: url(/font/BalooBhai2-SemiBold.ttf);
 }
+
 /* Sipinner */
 /* Loader styles */
 #spinner {
@@ -40,6 +41,7 @@
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -52,12 +54,14 @@
 
 /* Sipinner */
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 .navbar-scrolled {
     background-color: #03193E !important;
 }
+
 .padd {
     padding-top: 0.2rem;
     padding-bottom: 0.38rem;
@@ -138,7 +142,7 @@ html{
 
 .up-btn:hover {
 
-    background-color:  #f3daff;
+    background-color: #f3daff;
 
 }
 
@@ -155,7 +159,8 @@ html{
     cursor: pointer;
 
 }
-.up-btn-outline:hover{
+
+.up-btn-outline:hover {
     background-color: #f6eef9;
     color: #680198;
 }
@@ -163,9 +168,9 @@ html{
 
 /* Aanalyzer html */
 
-.mvh{
+.mvh {
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -175,21 +180,23 @@ html{
 }
 
 .drag-drop-area {
-    border: 2px dashed #ccc;
+    border: 2px dashed white;
     padding: 20px;
     cursor: pointer;
-    background-color: #fff;
-    transition: background-color 0.3s;
+
+    /* transition: background-color 0.3s; */
+    margin-top: 100px;
+    min-height: 200px;
 }
 
 .drag-drop-area:hover {
-    background-color: #f9f9f9;
+    background-color: #032357;
 }
 
 .drag-drop-area p {
     margin: 0;
     font-size: 14px;
-    color: #666;
+    color: white;
 }
 
 .drag-drop-area input[type="file"] {
@@ -213,7 +220,8 @@ html{
     border-radius: 5px;
     overflow: hidden;
     margin-top: 20px;
-    display: none; /* Hidden initially */
+    display: none;
+    /* Hidden initially */
 }
 
 .progress {
@@ -221,4 +229,17 @@ html{
     width: 0;
     background: linear-gradient(to right, #025afd, #01316d);
     transition: width 0.3s;
+}
+
+
+.info-text {
+    margin-top: 20px;
+    font-family: Baloo2;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.info-tem-sm{
+    font-family: Baloo2;
+    font-weight: 600;
+    font-size: 0.8em;
 }
