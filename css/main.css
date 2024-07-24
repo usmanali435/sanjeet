@@ -185,7 +185,7 @@ html {
     cursor: pointer;
 
     /* transition: background-color 0.3s; */
-    margin-top: 100px;
+    margin-top: 80px;
     min-height: 200px;
 }
 
@@ -242,4 +242,21 @@ html {
     font-family: Baloo2;
     font-weight: 600;
     font-size: 0.8em;
+}
+
+/* Doctor baisc dashboard */
+.side-bar-link-h{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Baloo2;
+}
+.divider{
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+hr{
+    margin-top: 0.8px;
+    margin-bottom: 0.9px;
 }
